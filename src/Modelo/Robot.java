@@ -13,9 +13,16 @@ public class Robot {
 		this.vivo=true;
 	}
 	
-	public void nuevaPos(int nuevaX,int nuevaY) {
-		this.posX=this.posX+nuevaX;
-		this.posY=this.posY+nuevaY;
+	public void nuevaPos(String direccion) {
+		if (direccion=="Derecha") {
+			this.posX=this.posX+10;
+		}else if(direccion=="Izquierda") {
+			this.posX=this.posX-10;
+		}else if(direccion=="Abajo") {
+			this.posY=this.posY+10;
+		}else {
+			this.posY=this.posY-10;
+		}
 	}
 	
 	public int posicionX() {
