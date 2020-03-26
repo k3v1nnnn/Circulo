@@ -1,4 +1,4 @@
-# JavaFx:Mover un circulo
+# JavaFx:Circulo en Movimiento
 
 Pequeño programa que permite mover un circulo mediante botenes. Se utilizo programacion orientada a objetos,patron MVC
 
